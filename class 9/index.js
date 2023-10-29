@@ -12,7 +12,7 @@ function ATM(accnumber, pin, withdrowAmount) {
             console.log("valid amount");
         }
     } else {
-        console.log("plase enter valid pin");
+        console.log("please enter valid pin");
     }
 
 }
