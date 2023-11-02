@@ -71,8 +71,7 @@ class Person {
         return this.age
     }
     get Information() {
-        this.greet()
-        if (this.isStudent == true) {
+        this.greet()        if (this.isStudent) {
             console.log("You are a student")
         } else {
             console.log("You are not a student")
